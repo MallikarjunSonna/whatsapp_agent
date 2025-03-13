@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: whatsapp-chatbot
+    runtime: python
+    region: singapore 
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+    envVars:
+      - key: EAAJV6Piz604BOxI8uIan4bgmc0eOmZALAu53EHiolrjD6i9wIRo4us9IuKFp7WhinaeuCAQCulw5yFBCvsqeouTkcZCAhozqIFmcUj6ZBK0rhDIBmIbNU4i7CfMzWrXShK1NXWRaIVZCkDr4VzxhGD6tZBVr4qplQojJdvW1ej8GGDTa176vuyDldwhp0qzKntQe5FIG76aZC0p11C0SkKr7ZCk63cwZA1GHK5pmlLN5OpwZD
+        sync: false
+      - key: 574955069035149
+        sync: false
+      - key: 7890123456
+        sync: false
