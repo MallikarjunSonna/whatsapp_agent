@@ -5,7 +5,7 @@ from models.chatbot_model import generate_response
 app = Flask(__name__)
 
 # Set environment variables or replace with actual values for testing
-ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN", "EAAJV6Piz604BO7431YPvcZCKjXcJ4d94YVlQEZBjPu08gpCi4hZB5B6OTJ1DMSZBMVbqra8Hgov1jUq9uX1G7BAfaMsS98tg295GFo0DNBFkEW4wJPYQ3ymRPCI0WICNBqkXHAUKnekC76eX4yr29hmZAjcg141FLRyL4Tfb4FqClpJrb9LZBNZCg9LnHAbMuCzZCjaVTovzi3LslQ3CCd86GYhh2g3cF54khN6Rjg2ZC1ZB0ZD")
+ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN", "EAAJV6Piz604BO7YBYPUpZA7d5pdmkCb7YiVrKDXhyA3u3YZBgaJRyUdiFkCHbTfzZAKRwOVAjZBG1ZCH4qBo5hb8KqHfAGEgea9ianCj3n780bs5m5PTGG8unpIkETZCfFV6F9k44yAuWWcNfMzZCot2nyg1ge18KNxqcxXzEXtknVHmZBZAtvrFhES6xZAGrf9RdZByEtskkQG21qiHi5p2IKX7hog2hEpIOfnIRuSBGlprKMA")
 PHONE_NUMBER_ID = os.environ.get("PHONE_NUMBER_ID", "558395714031254")
 VERIFY_TOKEN = os.environ.get("VERIFY_TOKEN", "7890123456")
 
