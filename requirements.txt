@@ -3,3 +3,4 @@ transformers
 torch
 requests
 gunicorn
+accelerate>=0.26.0
