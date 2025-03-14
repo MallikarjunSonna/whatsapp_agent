@@ -2,11 +2,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # Load the model once when the script runs
-MODEL_NAME = "tiiuae/falcon-7b"
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-model = AutoModelForCausalLM.from_pretrained(
-    MODEL_NAME, torch_dtype=torch.float16, device_map="auto"
-)
+model_name = "facebook/blenderbot-400M-distill"  
+model = AutoModelForCausalLM.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 def generate_response(prompt):
     """Generates a chatbot response based on the input prompt."""
